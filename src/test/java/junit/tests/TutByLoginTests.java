@@ -20,7 +20,7 @@ public class TutByLoginTests {
 
     @BeforeEach
     public void openBrowser() {
-        System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get(URL);
     }
